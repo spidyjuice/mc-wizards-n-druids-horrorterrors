@@ -1,7 +1,7 @@
 #!/bin/sh
 
 giturl='https://www.github.com/spidyjuice/mc-wizards-n-druids-horrorterrors'
-modlist="$(cat mods.txt | grep '^url: ' | sed 's/^url: //g')"
+modlist="$(cat mod_list.txt | grep '^url: ' | sed 's/^url: //g')"
 #echo "$modlist"
 
 echo "#!/bin/sh
@@ -19,22 +19,6 @@ while [ -n "$modlist" ] ; do
  echo 'wget '"$( echo -n "$modlist" | head -n 1 )" >> unix-installer.sh
  modlist="$(echo "$modlist" | tail -n +2)"
 done
-
-echo "cd ..
-echo done!
-mkdir config
-cd config
-echo 'installing config...'
-wget $giturl/config
-echo 'done!'" >> unix-installer.sh
-
-echo "cd ..
-echo done!
-mkdir config
-cd config
-echo 'installing config...'
-curl $giturl/config
-echo 'done!'" >> windows-installer.bat
 
 echo "echo 'all done!'" >> windows-installer.bat
 echo "echo 'all done!'" >> unix-installer.sh

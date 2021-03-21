@@ -6,9 +6,10 @@ curl https://www.curseforge.com/minecraft/mc-mods/abyssalcraft/download/3087689/
 curl https://www.curseforge.com/minecraft/mc-mods/baubles/download/2518667/file
 curl https://www.curseforge.com/minecraft/mc-mods/thaumcraft/download/2629023/file
 curl https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer/download/2957213/file
-curl https://www.curseforge.com/minecraft/mc-mods/patchouli/download/2851665/file
-curl https://www.curseforge.com/minecraft/mc-mods/autoreglib/download/2821794/file
+curl https://www.curseforge.com/minecraft/mc-mods/patchouli/download/3162874/file
+curl https://www.curseforge.com/minecraft/mc-mods/autoreglib/download/2746011/file
 curl https://www.curseforge.com/minecraft/mc-mods/quark/download/2924091/file
+curl https://www.curseforge.com/minecraft/mc-mods/botania/download/2846950/file
 curl https://www.curseforge.com/minecraft/mc-mods/blood-magic/download/2822288/file
 curl https://www.curseforge.com/minecraft/mc-mods/matmos/download/3162960/file
 curl https://www.curseforge.com/minecraft/mc-mods/extra-utilities/download/2678374/file
@@ -37,11 +38,6 @@ curl https://www.curseforge.com/minecraft/mc-mods/roots/download/3243267/file
 curl https://www.curseforge.com/minecraft/mc-mods/thaumic-periphery/download/2766866/file
 curl https://www.curseforge.com/minecraft/mc-mods/soot/download/3056967/file
 curl https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty/download/2842510/file
-cd ..
-echo done!
-mkdir config
-cd config
-echo 'installing config...'
-curl https://www.github.com/spidyjuice/wizards-n-druids-horrorterrors/config
-echo 'done!'
+curl https://www.curseforge.com/minecraft/mc-mods/multi-mob-core/download/2666556/file
+curl https://www.curseforge.com/minecraft/mc-mods/guide-api/download/2645992/file
 echo 'all done!'

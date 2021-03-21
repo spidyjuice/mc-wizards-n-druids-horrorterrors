@@ -1,4 +1,5 @@
-##Instructions
+## Instructions
+This does not currently work!! You will have to manually install all of these mods...
 
 to install the mods, there are two things you have to do.
 

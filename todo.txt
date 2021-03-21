@@ -1,4 +1,3 @@
-mod test, debug
 look into mod liscenses and permissions
 setup configs
 matmos pack
