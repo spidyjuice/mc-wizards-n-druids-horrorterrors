@@ -1,6 +1,6 @@
 #!/bin/sh
 
-giturl='https://www.github.com/spidyjuice/wizards-n-druids-horrorterrors'
+giturl='https://www.github.com/spidyjuice/mc-wizards-n-druids-horrorterrors'
 modlist="$(cat mods.txt | grep '^url: ' | sed 's/^url: //g')"
 #echo "$modlist"
 

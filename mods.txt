@@ -32,12 +32,10 @@ notes: CodeChickenCore is a listed dependancy, but there is no CCC for 1.12. Ski
 
 [ Patchouli ]
 dependancies: NONE
-url: https://www.curseforge.com/minecraft/mc-mods/patchouli/download/2851665/file
-
+url: https://www.curseforge.com/minecraft/mc-mods/patchouli/download/3162874/file
 [ AutoRegLib ]
 dependancies: NONE
-url: https://www.curseforge.com/minecraft/mc-mods/autoreglib/download/2821794/file
-
+url: https://www.curseforge.com/minecraft/mc-mods/autoreglib/download/2746011/file
 [ Quark ]
 dependancies: AutoRegLib
 url: https://www.curseforge.com/minecraft/mc-mods/quark/download/2924091/file
@@ -46,13 +44,13 @@ notes: I added this mod to the list by accident before realizing it was an optio
 [ Botania ]
 dependancies: Curios API, Patchouli
 optional: JEI, Quark
+url: https://www.curseforge.com/minecraft/mc-mods/botania/download/2846950/file
 notes: curios api is listed as a dependancy, but lacks a 1.12 version. Skipping.
 
 [ Blood Magic 2 ]
-dependancies: NONE?
+dependancies: Guide-API
 url: https://www.curseforge.com/minecraft/mc-mods/blood-magic/download/2822288/file
-notes: at blood-magic/files, there are 3 extra available jars... They seem to be documentation and stuff, I'm not sure if the main file includes everything, like the guide book. The mod description seems to indicate that there is a dependancy of Guide-API, but it is not listed in the dependancies list. I've skipped it, as well as all the extra provided files, for now.
-
+notes: at blood-magic/files, there are 3 extra available jars... They seem to be documentation and stuff, I'm not sure if the main file includes everything, like the guide book. skipped them for now.
 [ MAtmos ]
 dependancies: NONE
 url: https://www.curseforge.com/minecraft/mc-mods/matmos/download/3162960/file
@@ -113,7 +111,7 @@ url: https://www.curseforge.com/minecraft/mc-mods/ambience-music-mod/download/24
 notes: make/get a music pack I guess https://www.curseforge.com/minecraft/mc-mods/ambience-music-mod 
 
 [ Primitive Mobs ]
-dependancies: NONE
+dependancies: MultiMob
 url: https://www.curseforge.com/minecraft/mc-mods/primitive-mobs/download/2658551/file
 
 [ Thaumic Augmentation ]
@@ -170,3 +168,11 @@ url: https://www.curseforge.com/minecraft/mc-mods/soot/download/3056967/file
 [ Biomes O' Plenty ]
 dependancies: NONE
 url: https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty/download/2842510/file
+
+[ MultiMob ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/multi-mob-core/download/2666556/file
+
+[ Guide-API ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/guide-api/download/2645992/file
