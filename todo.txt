@@ -1,0 +1,7 @@
+mod test, debug
+look into mod liscenses and permissions
+setup configs
+matmos pack
+final sweep of notes
+
+later: ambience music pack

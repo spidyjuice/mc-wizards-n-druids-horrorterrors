@@ -1,0 +1,172 @@
++====================================+
++ Mod list for the                   +
++ *WIZARDS* ~~VS~~ n' *DRUIDS!*      +
++ +Xtra **HORRERTERRORS** ***<3***   +
++ modpack                            +
++====================================+
+  Minecraft Version: 1.12.2
+  Forge Version: https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar
+
+[ JEI ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/jei/download/3040523/file
+
+[ Abyssalcraft ] 
+dependancies: NONE
+optional: JEI
+url: https://www.curseforge.com/minecraft/mc-mods/abyssalcraft/download/3087689/file
+notes: apparently looking in the config is recommended
+
+[ Baubles ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/baubles/download/2518667/file
+
+[ Thaumcraft 6 ]
+dependancies: Baubles
+url: https://www.curseforge.com/minecraft/mc-mods/thaumcraft/download/2629023/file
+
+[ Thaumic Tinkerer ]
+dependancies: CodeChickenCore, Thaumcraft
+url: https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer/download/2957213/file
+notes: CodeChickenCore is a listed dependancy, but there is no CCC for 1.12. Skipping CCC. Also may be particularly buggy, consider dropping it.
+
+[ Patchouli ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/patchouli/download/2851665/file
+
+[ AutoRegLib ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/autoreglib/download/2821794/file
+
+[ Quark ]
+dependancies: AutoRegLib
+url: https://www.curseforge.com/minecraft/mc-mods/quark/download/2924091/file
+notes: I added this mod to the list by accident before realizing it was an optional dependency for botania, but eel and I are gonna roll with it. I wanna note that it actually makes the grass greener, which is maybe undesirable, but configurable.
+
+[ Botania ]
+dependancies: Curios API, Patchouli
+optional: JEI, Quark
+notes: curios api is listed as a dependancy, but lacks a 1.12 version. Skipping.
+
+[ Blood Magic 2 ]
+dependancies: NONE?
+url: https://www.curseforge.com/minecraft/mc-mods/blood-magic/download/2822288/file
+notes: at blood-magic/files, there are 3 extra available jars... They seem to be documentation and stuff, I'm not sure if the main file includes everything, like the guide book. The mod description seems to indicate that there is a dependancy of Guide-API, but it is not listed in the dependancies list. I've skipped it, as well as all the extra provided files, for now.
+
+[ MAtmos ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/matmos/download/3162960/file
+note: needs to be configured to work. need to make/install a sound library.
+
+[ Extra Utilities ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/extra-utilities/download/2678374/file
+
+[ Bibliocraft ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/bibliocraft/download/2574880/file
+
+[ ConnectedTexturesMod ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/ctm/download/2915363/file
+
+[ Twilight Forest ]
+dependancies: ConnectedTexturesMod, Patchouli
+optional: Baubles, Chisel, Immeersive Engineering, JEI, Shield Parry, Thaumcraft, Tinkers Construct
+url: https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/download/3051450/file
+
+[ Headcrumbs ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/headcrumbs/download/2645020/file
+
+[ OpenModsLib ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/openmodslib/download/2699055/file
+
+[ OpenBlocks ]
+dependancies: OpenModsLib
+url: https://www.curseforge.com/minecraft/mc-mods/openblocks/download/2699056/file
+
+[ Iron Chests ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/iron-chests/download/2747935/file
+
+[ Backpacks ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/forge-backpacks/download/2554237/file
+
+[ Roguelike Dungeons (Fnar's Edition) ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/fnars-roguelike-dungeons/download/3189628/file
+
+[ Serene Seasons ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/serene-seasons/download/2799213/file
+
+[ Special Mobs ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/special-mobs/download/2678490/file
+
+[ Ambience (Music Mod) ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/ambience-music-mod/download/2491122/file
+notes: make/get a music pack I guess https://www.curseforge.com/minecraft/mc-mods/ambience-music-mod 
+
+[ Primitive Mobs ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/primitive-mobs/download/2658551/file
+
+[ Thaumic Augmentation ]
+dependancies: Thaumcraft, Baubles
+url: https://www.curseforge.com/minecraft/mc-mods/primitive-mobs/download/2658551/file
+notes: this mod also comes with 3 other files... skipping again
+
+[ DimensionalDoors ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/dimensionaldoors/download/2558528/file
+notes: there is a newer version which 'restores compatibility with cubic chunks' but it is not marked as a main release so I'm skipping it
+
+[ Chisel ]
+dependancies: ConnectedTexturesMod
+url: https://www.curseforge.com/minecraft/mc-mods/chisel/download/2915375/file
+
+[ Astral Sorcery ]
+dependancies: Curios API, ObserverLib
+url: https://www.curseforge.com/minecraft/mc-mods/astral-sorcery/download/3044416/file
+notes: skipping all 'dependancies', no 1.12 versions available.
+
+[ AbyssalCraft Integration ]
+dependancies: AbyssalCraft
+optional: Bewitchment (Legacy), CraftTweaker, Game Stages, ProjectE, Thaumcraft, Tinkers Construct
+url: https://www.curseforge.com/minecraft/mc-mods/abyssalcraft-integration/download/2959100/file
+
+[ Embers Rekindled ]
+dependancies: NONE
+optional: Baubles, Mystical Mechanics API
+url: https://www.curseforge.com/minecraft/mc-mods/embers-rekindled/download/3225431/file
+
+[ MysticalLib ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/mysticallib/download/3243257/file
+
+[ Mystical World ]
+dependancies: MysticalLib, Patchouli
+url: https://www.curseforge.com/minecraft/mc-mods/mystical-world/download/3244451/file
+
+[ Roots ]
+dependancies: Mystical World, MysticalLib, Patchouli
+optional: Baubles
+url: https://www.curseforge.com/minecraft/mc-mods/roots/download/3243267/file
+
+[ Thaumic Periphery ]
+dependancies: Baubles, Thaumcraft
+optional: Botania, Embers Rekindled, Mystical Mechanics API
+url: https://www.curseforge.com/minecraft/mc-mods/thaumic-periphery/download/2766866/file
+
+[ Soot ]
+dependancies: Embers Rekindled
+url: https://www.curseforge.com/minecraft/mc-mods/soot/download/3056967/file
+
+[ Biomes O' Plenty ]
+dependancies: NONE
+url: https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty/download/2842510/file
